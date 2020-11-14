@@ -1,5 +1,5 @@
 const Rollbutton = document.querySelectorAll("button")[0]
-
+const MyAudio = document.getElementById("audio")
 
 Rollbutton.onclick = function(){
     roll()
@@ -18,6 +18,6 @@ function roll(){
 }
 
 function Play(){
-    var MyAudio = document.getElementById("audio")
+    
     MyAudio.play()
 }
